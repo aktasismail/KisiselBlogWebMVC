@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>@ViewData["Title"] - İsmail AKTAŞ</title>
+    <link rel="icon" href="@Url.Content("~/img/favicon.ico")" />
+    <meta name="author" content="İsmail AKTAŞ" />
+    <meta name="description" content="Yazılım hakkında bildiğim bazı detayları
+     ve sorunların çözümlerini sizlerle paylaşmak ve bilgiyi yaymak" />
+    <meta name="keywords" content="Programlama,Web tasarım,Yazılım" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all" />
+    <link rel='stylesheet' type='text/css' href='~/css/blog.css'>
+</head>
+<body>
+    <section class="ia_section">
+        <nav class="ia_header">
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="ia_logo">
+                <span>İsmail</span> <span class="surname">AKTAŞ</span>
+            </a>
+            <img class ="open-menu" src="~/img/open.svg">
+            <div class="ia_nav_link">
+                <ul class="ia_links">
+                    <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                    <li>
+                        <div class="ia_item">
+                            Makaleler
+                            <div class="ia_dropdown">
+                                @await Component.InvokeAsync("KategoriVC")
+                            </div>
+                        </div>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Hakkimda">Hakkımda</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="iletisim">İletişim</a></li>
+                    <li>
+                        <form asp-controller="Home" asp-action="Arama" method="post">
+                            <input name="x" class="ia_search_input" placeholder="Neyi aramıştınız" />
+                            <button class="ia_search_button" type="submit">Ara</button>
+                        </form>
+                    </li>
+                    <li>
+                        <div class="ia_item">
+                            <partial name="_LoginPartial.cshtml">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="ia_links_mobile">
+                    <partial name="_LoginPartialMobile" />
+                    <li><span>Makaleler</span></li>
+                    <li><hr /></li>
+                    @await Component.InvokeAsync("KategoriMobil")
+                    <li>
+                        <form asp-area="" asp-controller="Home" asp-action="Arama" method="post">
+                            <input name="x" class="ia_search_input" placeholder="Neyi aramıştınız" />
+                            <button class="ia_search_button" type="submit">Ara</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr />
+        <div>
+            @RenderBody()
+        </div>
+    </section>
+    <footer class="ia_footer">
+        <p>Tüm hakları saklıdır © 2020 | ismailaktas.net</p>
+    </footer>
+    <partial name="_FooterMobile" />
+    <script src="~/js/blog.js" asp-append-version="true"></script>
+    <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

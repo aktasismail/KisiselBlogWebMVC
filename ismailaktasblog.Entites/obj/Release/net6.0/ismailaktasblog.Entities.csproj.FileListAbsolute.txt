@@ -1,0 +1,12 @@
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\bin\Release\net6.0\ismailaktasblog.Entities.deps.json
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\bin\Release\net6.0\ismailaktasblog.Entities.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\bin\Release\net6.0\ismailaktasblog.Entities.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.csproj.AssemblyReference.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.AssemblyInfoInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.AssemblyInfo.cs
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\refint\ismailaktasblog.Entities.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ismailaktasblog.Entities.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Entites\obj\Release\net6.0\ref\ismailaktasblog.Entities.dll

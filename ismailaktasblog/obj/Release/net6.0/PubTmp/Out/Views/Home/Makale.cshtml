@@ -1,0 +1,18 @@
+﻿@model IEnumerable<ismailaktasblog.Entities.Makale>
+@{
+    ViewData["Title"] = "Makale";
+}
+@foreach (var item in Model)
+{
+    if (item.Onay == true)
+    {
+        <div class="ia_result">
+            <span class="ia_result_title"><a asp-action="Detay" asp-route-id="@item.MakaleId">@item.Baslik</a></span>
+            <span class="ia_result_date"> @item.Tarih.Day @item.Tarih.Month @item.Tarih.Year</span>
+            @Html.Raw(@item.Detay.Substring(0, 100)) ...
+            <p></p>
+            <a class="ia_result_btn" asp-action="Detay" asp-route-id="@item.MakaleId"><span class="ia_btn_text">Devamını oku</span></a>
+        </div>
+    }
+
+}

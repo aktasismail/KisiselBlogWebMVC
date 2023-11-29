@@ -1,0 +1,22 @@
+﻿@model ismailaktasblog.Entities.KayitOlmaVM
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+<form asp-controller="Account" asp-action="KayitOlma" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="login">
+        <div class="ia_login_cart">
+            <span class="ia_login_title">Hesap oluştur</span>
+            <li>
+                <input class="ia_login_input bt-li" asp-for="Ad" placeholder="Ad" />
+                <input class="ia_login_input bt-li" asp-for="Soyad" placeholder="Soyad" />
+            </li>
+            <input class="ia_login_input" asp-for="UserName" placeholder="Kullanıcı adı" />
+            <input class="ia_login_input" asp-for="Email" placeholder="E posta" />
+            <input class="ia_login_input" asp-for="Password" type="password" placeholder="Şifre" />
+            <input class="ia_login_input" asp-for="ConfirmPassword" type="password" placeholder="Şifreyi onayla" />
+            <button type="submit" class="ia_btn_login">Hesap aç</button>
+            <a asp-controller="Account" asp-action="GirisYap">Hesabınız var mı?</a>
+        </div>
+    </div>
+</form>

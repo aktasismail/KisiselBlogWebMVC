@@ -1,0 +1,17 @@
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.Services.deps.json
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.Services.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.Services.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.DataAccess.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.Entities.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.DataAccess.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\bin\Release\net6.0\ismailaktasblog.Entities.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.csproj.AssemblyReference.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.AssemblyInfoInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.AssemblyInfo.cs
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.csproj.CoreCompileInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.csproj.CopyComplete
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\refint\ismailaktasblog.Services.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ismailaktasblog.Services.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.Services\obj\Release\net6.0\ref\ismailaktasblog.Services.dll

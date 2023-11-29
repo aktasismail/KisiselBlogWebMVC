@@ -1,0 +1,17 @@
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.DataAccess.deps.json
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.DataAccess.runtimeconfig.json
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.DataAccess.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.DataAccess.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.Entities.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\bin\Release\net6.0\ismailaktasblog.Entities.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.AssemblyInfo.cs
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.csproj.CopyComplete
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\refint\ismailaktasblog.DataAccess.dll
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.pdb
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ismailaktasblog.DataAccess.genruntimeconfig.cache
+C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog.DataAccess\obj\Release\net6.0\ref\ismailaktasblog.DataAccess.dll

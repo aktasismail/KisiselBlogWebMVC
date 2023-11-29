@@ -1,0 +1,33 @@
+﻿@model ismailaktasblog.Entities.MakaleDto
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<h1>Makale Düzenle</h1>
+<form method="post" asp-action="MakaleYaz" enctype="multipart/form-data">
+    <div asp-validation-summary="All"></div>
+    <input type="hidden" asp-for="UserId" />    
+    <div class="ia_edit">
+        <input asp-for="Baslik" class="ia_edit_input" placeholder="Başlık" /> 
+        <select class="ia_select" asp-items="@ViewBag.kgrt" asp-for="KategoriId">
+        </select>
+        <textarea asp-for="Detay" id="summernote"></textarea>
+        <input name="formFile" class="ia_edit_input" type="file" />
+        <button type="submit" class="ia_search_button">Kaydet</button>
+    </div>
+</form>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <script>
+        $('#summernote').summernote({
+            placeholder: 'Detayları yazınız...',
+            tabsize: 2,
+            height: 120,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['table', ['table']]
+            ]
+        });
+    </script>
+}

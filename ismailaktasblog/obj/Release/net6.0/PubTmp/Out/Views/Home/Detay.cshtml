@@ -1,0 +1,14 @@
+﻿@model ismailaktasblog.Entities.MakaleDto
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+<section class="ia_blog_detail">
+    @if (Model.Onay == true)
+    {
+        <p class="ia_blog_detail_title">@Model.Baslik</p>
+        <img class="ia_blog_detail_img" src="@Model.Gorsel" alt="" />
+        <div class="ia_blog_detail_content">
+            @Html.Raw(@Model.Detay)
+        </div>
+    }
+</section>

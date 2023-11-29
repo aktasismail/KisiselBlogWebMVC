@@ -1,0 +1,19 @@
+﻿@model ismailaktasblog.Entities.GirisYapmaVM
+@{
+    ViewData["Title"] = "GirisYap";
+}<div class="login">
+    <div class="ia_login_cart">
+        <span class="ia_login_title">Kullanıcı girişi</span>
+        <form asp-controller="Account" asp-action="GirisYap" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input asp-for="Email" class="ia_login_input" placeholder="E posta" />
+            <input asp-for="Password" class="ia_login_input" type="password" placeholder="Şifre" />
+            <div class="ia_result_title">
+            <input asp-for="BeniHatirla" type="checkbox">
+            <span>Beni hatırla</span>
+            </div>
+            <button type="submit" class="ia_btn_login">Giriş Yap</button>
+            <a asp-action="KayitOlma">Hesabınız yok mu?</a>
+        </form>
+    </div>
+</div>

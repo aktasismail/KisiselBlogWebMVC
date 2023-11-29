@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ismailaktasblog.Entities.Kategori>
+
+
+@foreach (var item in Model)
+{
+    <li>
+        <a href="/Home/KategoriDetay/@item.KategoriId">@item.KategoriAd</a>
+    </li>
+}

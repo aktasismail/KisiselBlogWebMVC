@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ismailaktasblog.Entities.Makale>
+@{
+    ViewData["Title"] = "Makale";
+}
+@foreach (var item in Model)
+{
+       <div class="ia_table">
+            <table>
+                <tr>
+                    <th>
+                        Yazar
+                    </th>
+                    <th>
+                        Başlık
+                    </th>
+                    <th>
+                        Düzenle
+                    </th>
+                    <th>
+                        Sil
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        @item.AppUser.UserName
+                    </td>
+                    <td>
+                        @item.Baslik
+                    </td>
+                    <td>
+                        <a asp-action="MakaleDuzenle" asp-route-id="@item.MakaleId" class="btn-edit">Düzenle</a>
+
+                    </td>
+                    <td>
+                    <a asp-action="MakaleSil" asp-route-id="@item.MakaleId" class="btn-remove">Sil</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+}

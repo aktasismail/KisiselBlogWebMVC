@@ -1,0 +1,28 @@
+﻿@model ismailaktasblog.Models.ProfilVM
+<section class="ia_container">
+    <div class="ia_profile">
+        <h1>Hesabım</h1>
+        <p>ismail aktaş</p>
+        @if (Model.AppUser.EmailConfirmed==false)
+        {
+            <a class="ia_profile_btn" asp-area="" asp-controller="Account" asp-action="MailGonder" asp-route-email="@Model.AppUser.Email">Hesabını doğrula</a>
+        }
+        
+        <a class="ia_profile_btn" asp-action="ProfilDuzenle" asp-route-id="@Model.AppUser.Id">Profili düzenle</a>
+    </div>
+    <span class="ia_result_title">Yazdığım makaleler</span>
+    <hr />
+    <a asp-area="Users" asp-controller="Home" asp-action="MakaleYaz">Yeni makale yaz</a>
+    @foreach (var item in Model.Makale)
+    {
+    <div class="ia_profile_detail">
+        <div class="ia_profile_title">
+            <p>@item.Baslik</p> <span class="ia_date">@item.Tarih.Day @item.Tarih.Month @item.Tarih.Year</span>
+        </div>
+        <span>
+            <a asp-action="MakaleSil" asp-route-id="@item.MakaleId" asp-route-userid="@Model.AppUser.Id" class="btn-edit"><ion-icon name="trash-outline"></ion-icon>Sil</a>
+            <a asp-action="MakaleGuncelle" asp-route-id="@item.MakaleId" class="btn-edit"><ion-icon name="document-text-outline"></ion-icon>Düzenle</a>
+        </span>
+    </div>
+    }
+</section>

@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ismailaktasblog
+build_property.RootNamespace = ismailaktasblog
+build_property.ProjectDir = C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\ismail\source\repos\ismailaktasblog\ismailaktasblog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/Admin/MakaleGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFrYWxlR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/Admin/MakaleYaz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFrYWxlWWF6LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Home/MakaleGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxNYWthbGVHdW5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Home/MakaleOnay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxNYWthbGVPbmF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Home/MakaleYaz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxNYWthbGVZYXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Home/ProfilDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxQcm9maWxEdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Home/Profilim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxQcm9maWxpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Areas/Users/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Account/GirisYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxHaXJpc1lhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Account/KayitOlma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxLYXlpdE9sbWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Account/SifremiUnuttum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWZyZW1pVW51dHR1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Account/SifreSifirla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWZyZVNpZmlybGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/Arama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcmFtYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/CV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/Hakkimda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWtraW1kYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/KategoriDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLYXRlZ29yaURldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Home/Makale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWthbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/Components/KategoriMobil/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcS2F0ZWdvcmlNb2JpbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/Components/KategoriVC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcS2F0ZWdvcmlWQ1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/_FooterMobile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJNb2JpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/_LoginPartialMobile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWxNb2JpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ismail/source/repos/ismailaktasblog/ismailaktasblog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eku01zfx2u

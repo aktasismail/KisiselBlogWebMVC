@@ -1,0 +1,19 @@
+﻿@model ismailaktasblog.Entities.KullanıcıDuzenleVM
+<section class="ia_container">
+    <div class="login">
+        <div class="ia_login_cart">
+            <form asp-action="ProfilDuzenle" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <span class="ia_login_title">Profili düzenle</span>
+                <input name="Id" type="hidden" value="@Model.Id">
+                <input class="ia_login_input" asp-for="Ad" placeholder="Ad" />
+                <input class="ia_login_input" asp-for="Soyad" placeholder="Soyad" />
+                <input class="ia_login_input" asp-for="UserName" placeholder="Kullanıcı Adı" />
+                <input class="ia_login_input" asp-for="Email" placeholder="E Posta" />
+                <input class="ia_login_input" asp-for="Password" placeholder="Şifre" />
+                <input class="ia_login_input" asp-for="ConfirmPassword" placeholder="Şifre tekrar" />
+                <button type="submit" class="ia_btn_login">Onayla</button>
+            </form>
+        </div>
+    </div>
+</section>

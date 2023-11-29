@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ismailaktasblog.Entities
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li>
+        <a class="ia_btn" asp-area="Users" asp-controller="Home" asp-action="Profilim">@UserManager.GetUserName(User)</a>
+    </li>
+    <li>
+        <a class="ia_btn" asp-controller="Account" asp-action="CikisYap">Çıkış</a>
+    </li>
+}
+else
+{
+    <li>
+        <a class="ia_btn" asp-controller="Account" asp-action="GirisYap">Giriş</a>
+        <a class="ia_btn" asp-controller="Account" asp-action="KayitOlma">Kayıt</a>
+    </li>
+}
+

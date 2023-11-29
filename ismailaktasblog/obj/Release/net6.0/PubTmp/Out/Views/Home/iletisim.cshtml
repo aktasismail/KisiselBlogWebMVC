@@ -1,0 +1,18 @@
+﻿@model ismailaktasblog.Entities.MesajDto
+
+@{
+    ViewData["Title"] = "İletişim";
+}
+<section class="ia_container">
+    <div class="ia_contact">
+        <h1 class="ia_contact_title">İletişim</h1>
+        <form asp-action="iletisim" class="ia_contact_form">
+            <div asp-validation-summary="ModelOnly"></div>
+            <input asp-for="Ad" class="ia_contact_input" placeholder="Ad Soyad" />
+            <input asp-for="Email" class="ia_contact_input" placeholder="E Posta" />
+            <input asp-for="Mesajlar" class="ia_contact_input" placeholder="İletiniz" />
+            <button type="submit" class="ia_contact_btn">Gönder</button>
+        </form>
+    </div>
+</section>
+

@@ -1,0 +1,15 @@
+﻿@model ismailaktasblog.Entities.SifreSifirlaVM
+@{
+    ViewData["Title"] = "Şifre Sıfırla";
+}<div class="login">
+    <div class="ia_login_cart">
+        <span class="ia_login_title">Şifre Sıfırlama</span>
+        <form asp-controller="Account" asp-action="SifremiUnuttum" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input asp-for="Email" class="ia_login_input" placeholder="E posta" />
+            <input class="ia_login_input" asp-for="Password" type="password" placeholder="Şifre" />
+            <input class="ia_login_input" asp-for="ConfirmPassword" type="password" placeholder="Şifreyi onayla" />
+            <button type="submit" class="ia_btn_login">Kaydet</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ismailaktasblog.Entities
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <span>Hesap</span>
+    <div class="ia_dropdown">
+        <div>
+            <a class="item" asp-area="Users" asp-controller="Home" asp-action="Profilim">@UserManager.GetUserName(User)</a>
+            <a class="item" asp-area="" asp-controller="Account" asp-action="CikisYap">Çıkış</a>
+        </div>
+    </div>
+}
+else
+{
+    <span>Hesap</span>
+    <div class="ia_dropdown">
+        <div>
+            <a class="item" asp-area="" asp-controller="Account" asp-action="GirisYap">Giriş Yap</a>
+            <a class="item" asp-area="" asp-controller="Account" asp-action="KayitOlma">Kayıt Ol</a>
+        </div>
+    </div>
+}
+

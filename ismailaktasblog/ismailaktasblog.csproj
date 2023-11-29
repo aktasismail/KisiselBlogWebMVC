@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ismailaktasblog.DataAccess\ismailaktasblog.DataAccess.csproj" />
+    <ProjectReference Include="..\ismailaktasblog.Entites\ismailaktasblog.Entities.csproj" />
+    <ProjectReference Include="..\ismailaktasblog.Services\ismailaktasblog.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Users\Data\" />
+    <Folder Include="Areas\Users\Models\" />
+  </ItemGroup>
+	<ItemGroup>
+		<ViewFiles Include="$(ProjectDir)\Views\**\*.cshtml" />
+	</ItemGroup>
+
+	<Target Name="CopyViewFilesAfterPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(ViewFiles)"
+		  DestinationFolder="$(PublishDir)\Views\%(RecursiveDir)"
+    />
+	</Target>
+</Project>
